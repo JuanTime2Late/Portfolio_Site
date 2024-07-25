@@ -1,4 +1,8 @@
 # Portfolio_Site
-Portfolio website to share programming skills and different other projects.
++ Portfolio website to share programming skills and different other projects. 
++ Below are the projects on which I contributed or worked on.
++ Given that I will work on projects continuously This will be edited as necessary.
 
-checking that branch protection works. x2
+## Changes
+    Changed tab to accomodate icon and name.
+
