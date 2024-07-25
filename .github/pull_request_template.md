@@ -11,7 +11,7 @@
 
 ## Notes
 
-[] Checked for redundant comments.
-[] Checked build before push.
-[] No new breaks introduced.
-[] Tested.
+- [ ] Checked for redundant comments.
+- [ ] Checked build before push.
+- [ ] No new breaks introduced.
+- [ ] Tested.
