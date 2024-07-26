@@ -6,5 +6,6 @@
 ## Changes    
 + Changed tab to accomodate icon and name.
 + Added a navigation bar with 4 future routes.
-+ fixed the tab icon. (for now)
++ Fixed the tab icon (for now).
++ Changed the name logo to an image.
 
