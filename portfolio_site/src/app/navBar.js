@@ -15,7 +15,7 @@ const NavBar = () => {
             <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
-                        <div className="flex-shrink-0">
+                        <div className="flex-shrink-0 animate-pulse">
                             <img className="text-white" src="JuanVera3d.png" alt="Juan Vera" ></img>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const NavBar = () => {
                             <NavBarWord word={"Home"} link={"/"} block={false}/>
                             <NavBarWord word={"Resume"} link={"/resume"} block={false}/>
                             <NavBarWord word={"Projects"} link={"/projects"} block={false}/>
-                            <NavBarWord word={"tbd"} link={"/"} block={false}/>
+                            <NavBarWord word={"LinkedIn"} link={"/linkedin"} block={false}/>
                         </div>
                     </div>
                     <div className="md:hidden flex items-center">
@@ -67,7 +67,7 @@ const NavBar = () => {
                         <NavBarWord word={"Home"} link={"/"} block={true}/>
                         <NavBarWord word={"Resume"} link={"/resume"} block={true}/>
                         <NavBarWord word={"Projects"} link={"/projects"} block={true}/>
-                        <NavBarWord word={"tbd"} link={"/"} block={true}/>
+                        <NavBarWord word={"LinkedIn"} link={"/linkedin"} block={true}/>
                 </div>
             )}
         </nav>
