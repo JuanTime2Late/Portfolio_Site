@@ -11,7 +11,7 @@ const NavBar = () => {
 
     return (
         <>
-        <nav className="bg-black">
+        <nav className="bg-farthest-side-gradient">
             <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
@@ -78,12 +78,12 @@ const NavBar = () => {
 const NavBarWord = ({word, link, block}) => (
     block ? (
     <a href={link}
-        className="text-white block hover:bg-white hover:text-black rounded-lg p-2">
+        className="text-white block hover:bg-white hover:animate-pulse hover:text-black rounded-lg p-2">
         {word}
     </a>
     ) : (
         <a href={link}
-        className="text-white hover:bg-white hover:text-black rounded-lg p-2">
+        className="text-white hover:bg-white hover:text-black rounded-lg p-2 transition ease-in-out">
         {word}
     </a>
     )
