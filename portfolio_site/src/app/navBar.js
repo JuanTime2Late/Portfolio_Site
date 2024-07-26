@@ -22,9 +22,9 @@ const NavBar = () => {
                     <div className="hidden md:block">
                         <div className="ml-4 flex items-center space-x-4">
                             <NavBarWord word={"Home"} link={"/"} block={false}/>
-                            <NavBarWord word={"Resume"} link={"/"} block={false}/>
-                            <NavBarWord word={"Projects"} link={"/"} block={false}/>
-                            <NavBarWord word={"LinkedIn"} link={"/"} block={false}/>
+                            <NavBarWord word={"Resume"} link={"/resume"} block={false}/>
+                            <NavBarWord word={"Projects"} link={"/projects"} block={false}/>
+                            <NavBarWord word={"tbd"} link={"/"} block={false}/>
                         </div>
                     </div>
                     <div className="md:hidden flex items-center">
@@ -65,9 +65,9 @@ const NavBar = () => {
                 <div className="md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3"></div>
                         <NavBarWord word={"Home"} link={"/"} block={true}/>
-                        <NavBarWord word={"Resume"} link={"/"} block={true}/>
-                        <NavBarWord word={"Projects"} link={"/"} block={true}/>
-                        <NavBarWord word={"LinkedIn"} link={"/"} block={true}/>
+                        <NavBarWord word={"Resume"} link={"/resume"} block={true}/>
+                        <NavBarWord word={"Projects"} link={"/projects"} block={true}/>
+                        <NavBarWord word={"tbd"} link={"/"} block={true}/>
                 </div>
             )}
         </nav>
