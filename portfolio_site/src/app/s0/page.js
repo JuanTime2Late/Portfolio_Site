@@ -1,12 +1,11 @@
 import NavBar from "../navBar";
+import Terminal from "./terminal";
 
-export default function Resume() {
+export default function ContactInfo() {
     return (
         <>
             <NavBar />
-            <div className="h-screen w-screen bg-red-900 text-white">
-                Resume
-            </div>
+            <Terminal />
         </>
     );
 }

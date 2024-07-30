@@ -22,7 +22,7 @@ const NavBar = () => {
                     <div className="hidden md:block">
                         <div className="ml-4 flex items-center space-x-4">
                             <NavBarWord word={"Home"} link={"/"} block={false}/>
-                            <NavBarWord word={"Resume"} link={"/s0"} block={false}/>
+                            <NavBarWord word={"Contact Info"} link={"/s0"} block={false}/>
                             <NavBarWord word={"Projects"} link={"/s1"} block={false}/>
                             <NavBarWord word={"LinkedIn"} link={"/linkedin"} block={false}/>
                         </div>
