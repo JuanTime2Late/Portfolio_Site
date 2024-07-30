@@ -9,3 +9,8 @@
 + Fixed the tab icon (for now).
 + Changed the name logo to an image.
 
+## Note
+To run locally run the following command:
+
+    npm run dev
+

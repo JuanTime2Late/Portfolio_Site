@@ -8,9 +8,23 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'radial-center': 'radial-gradient(ellipse, #000426, #000000)',
+        'farthest-side-gradient': 'radial-gradient(ellipse at 100% 60%, #000426, #000000)'
+      },
+      keyframes: {
+        slideIn: {
+          '0%': { transform: 'translate(-50%)' },
+          '100%': {transform: 'translate(0)' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        },
+      },
+      animation: {
+        slideIn: 'slideIn 1.0s ease-out',
+        slideInR: 'slideIn 1.5s ease-out',
+        fadeIn: 'fadeIn 3s ease-out',
       },
     },
   },
