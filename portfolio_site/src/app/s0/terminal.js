@@ -18,7 +18,7 @@ const Terminal = () => {
     const handleSubmit = (entry) => {
         entry.preventDefault();
 
-        if (input.trim().toLowerCase() === 'clear') {
+        if (input.trim().toLowerCase() === 'clear' || input.trim().toLowerCase() === 'cls') {
             setOutput([{ type: 'output', text: 'Instructions: Type `contact` to get my info or `clear` to clear the screen.' }]);
         } 
         else if(input.trim().toLowerCase() === 'contact') {
@@ -36,8 +36,8 @@ const Terminal = () => {
     };
 
     return(
-        <div className="bg-black text-white h-screen p-4 font-mono animate-fadeIn">
-            <form onSubmit={handleSubmit} className="mt-2">
+        <div className="bg-gray-900 text-white h-screen p-4 font-mono animate-fadeIn">
+            <form onSubmit={handleSubmit} className="bg-black rounded-md mt-2">
                 <div className="flex items-center">
                     <span className="text-green-500 mr-2">user@letsimagine-desktop:~$</span>
                         <input id="terminal-input" ref={iRef} type="text" className="bg-transparent text-white outline-none flex-grow"
@@ -45,7 +45,7 @@ const Terminal = () => {
                             onChange={(a) => setInput(a.target.value)}
                         />
                 </div>
-                <div className="h-64 overflow-y-auto">
+                <div className="h-96 overflow-y-auto">
                     {output.map((line, index) => (
                         line.type === 'error' ? (
                             <div key={index} className="text-red-600">
