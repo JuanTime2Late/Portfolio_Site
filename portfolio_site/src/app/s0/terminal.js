@@ -36,7 +36,7 @@ const Terminal = () => {
     };
 
     return(
-        <div className="bg-gray-900 text-white h-screen p-4 font-mono animate-fadeIn">
+        <div className="bg-gray-900 text-white h-screen p-4 font-mono">
             <form onSubmit={handleSubmit} className="bg-black rounded-md mt-2">
                 <div className="flex items-center">
                     <span className="text-green-500 mr-2">user@letsimagine-desktop:~$</span>
