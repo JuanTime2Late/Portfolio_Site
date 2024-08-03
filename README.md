@@ -20,6 +20,6 @@
 
 |path|Content|
 |------|---------|
-|s0|Resume|
-|s1|Projects|
+|s0|Contact Info|
+|s1|Github Projects|
  
