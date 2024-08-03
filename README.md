@@ -3,14 +3,8 @@
 + Below are the projects on which I contributed or worked on.
 + Given that I will work on projects continuously This will be edited as necessary.
 
-## Changes    
-+ Changed tab to accomodate icon and name.
-+ Added a navigation bar with 4 future routes.
-+ Fixed the tab icon (for now).
-+ Changed the name logo to an image.
-+ Changed routes to have a s(n) path. (explained below: E1)
 
-## Notes
+## Important Info
 + To run locally run the following command:
         
         npm run dev
@@ -23,3 +17,11 @@
 |s0|Contact Info|
 |s1|Github Projects|
  
+ ## Changes    
++ Changed tab to accomodate icon and name.
++ Added a navigation bar with 4 future routes.
++ Fixed the tab icon (for now).
++ Changed the name logo to an image.
++ Changed routes to have a s(n) path. (explained below: E1)
++ Posts now work
++ Routes added and Linked in works now.
