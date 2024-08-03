@@ -20,7 +20,7 @@ const posts = [
 
 const Posts = () => {
   return(
-    <div className="container mx-auto p-4 bg-gray-950">
+    <div className="container mx-auto p-4 ">
       <div className="max-w-lg mx-auto space-y-8">
         {posts.map((post) => (
           <div key={post.id} className="bg-gray-800 text-white p-4  rounded shadow">

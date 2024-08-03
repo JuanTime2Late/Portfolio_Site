@@ -11,7 +11,8 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-farthest-side-gradient animate-fadeIn">
+      <nav className="bg-farthest-side-gradient animate-fadeIn shadow-white 
+      shadow-[0_6px_6px_-3px_rgba(0,0,0,0.9)]">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
