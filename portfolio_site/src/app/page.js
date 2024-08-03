@@ -18,8 +18,8 @@ export default function Home() {
                 Anything involving scalability, efficiency, and user-friendly solutions is synonymous with my drive to improve and participate.
               </p>
             </div>
-            <div className="flex justify-center h-1/2 w-1/2 bg-red-800">
-              <img className="rounded-lg max-h-screen w-auto" src="./imgs/J1.jpg" alt="Juan Vera" ></img>
+            <div className="flex justify-center md:h-96 lg:h-[40rem] w-1/2">
+              <img className="rounded-lg h-full w-auto" src="./imgs/J1.jpg" alt="Juan Vera" ></img>
             </div>
           </div>
         </div>
