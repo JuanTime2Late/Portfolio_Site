@@ -16,6 +16,10 @@ module.exports = {
           '0%': { transform: 'translate(-50%)' },
           '100%': {transform: 'translate(0)' },
         },
+        slideInL: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': {transform: 'translateX(0)' },
+        },
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' }
@@ -23,7 +27,8 @@ module.exports = {
       },
       animation: {
         slideIn: 'slideIn 1.0s ease-out',
-        slideInR: 'slideIn 1.5s ease-out',
+        slideInL: 'slideInL 1.0s ease-out',
+        slideInSlower: 'slideIn 1.5s ease-out',
         fadeIn: 'fadeIn 3s ease-out',
       },
     },

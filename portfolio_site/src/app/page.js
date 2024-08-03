@@ -11,7 +11,7 @@ export default function Home() {
             <div className="flex items-center justify-center ml-5 mr-5">
               <div className="grid border border-dashed rounded-2xl border-zinc-800 bg-zinc-950 justify-center w-1/2 px-4 py-10 animate-slideIn bg-opacity-30">
                 <h1 className="ml-20 mb-4 justify-self-start text-5xl font-extrabold animate-fadeIn">About me</h1>
-                <p className="animate-slideInR text-balance sm:text-xs md:text-sm lg:text-lg xl:text-xl"> 
+                <p className="animate-slideInSlower text-balance sm:text-xs md:text-sm lg:text-lg xl:text-xl"> 
                   I am eager to utilize my skills in programming, problem-solving, and project management 
                   and excited to contribute to innovative projects and dynamic teams. 
                   My academic journey has equipped me with skills in various programming languages, software development methodologies, and modern technologies. 
@@ -19,7 +19,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex justify-center sm:h-32 md:h-96 lg:h-[40rem] w-1/2">
-                <img className="rounded-lg h-full w-auto" src="./imgs/J1.jpg" alt="Juan Vera" ></img>
+                <img className="animate-slideInL rounded-lg h-full w-auto" src="./imgs/J1.jpg" alt="Juan Vera" ></img>
               </div>
             </div>
           </div>
