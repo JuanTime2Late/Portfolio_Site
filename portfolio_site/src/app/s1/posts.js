@@ -17,7 +17,7 @@ const posts = [
       './imgs/calorie_counter/cca.png',
     ],
     description: 'An application that tracks food intake through calorie and nutrition.',
-    projectUrl: 'https://github.com/JuanTime2Late/Portfolio_Site',
+    projectUrl: 'https://github.com/JuanTime2Late/Calorie_Counter',
   },
 ]
 
