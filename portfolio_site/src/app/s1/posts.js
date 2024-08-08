@@ -19,6 +19,16 @@ const posts = [
     description: 'An application that tracks food intake through calorie and nutrition.',
     projectUrl: 'https://github.com/JuanTime2Late/Calorie_Counter',
   },
+  {
+    title: 'Portfolio Site',
+    id: 3,
+    images: [
+      './imgs/pf_site/pfsite.png',
+      './imgs/pf_site/pfterminal.png',
+    ],
+    description: 'My portfolio site repository.',
+    projectUrl: 'https://github.com/JuanTime2Late/Portfolio_Site',
+  },
 ]
 
 const Posts = () => {
@@ -30,7 +40,7 @@ const Posts = () => {
             <p className="mb-4 text-center text-2xl">{post.title}</p>
             <div className="grid grid-cols-2 gap-2">
               {post.images.slice(0, 2).map((image, index) => (
-                <img key={index} src={image} alt={`Post ${post.id} Image ${index + 1}`} className="rounded" />
+                <img key={index} src={image} alt={`Post ${post.id} Image ${index + 1}`} className="border border-dotted border-gray-700 rounded" />
               ))}
             </div>
             <p className="mt-4 px-2 py-1 border-dotted border-gray-700 shadow-2xl border rounded-lg">{post.description}</p>
