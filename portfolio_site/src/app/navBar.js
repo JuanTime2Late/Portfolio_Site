@@ -18,7 +18,7 @@ const NavBar = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 animate-pulse">
-                  <Image className="text-white" src="JuanVera3d.png" alt="Juan Vera" ></Image>
+                  <Image className="text-white" src="public/JuanVera3d.png" alt="Juan Vera" ></Image>
               </div>
             </div>
             <div className="hidden md:block">
