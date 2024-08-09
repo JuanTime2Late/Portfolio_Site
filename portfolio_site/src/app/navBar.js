@@ -65,7 +65,7 @@ const NavBar = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3"></div>
               <NavBarWord word={"Home"} link={"/"} block={true}/>
-              <NavBarWord word={"Resume"} link={"/s0"} block={true}/>
+              <NavBarWord word={"Contact Info"} link={"/s0"} block={true}/>
               <NavBarWord word={"Projects"} link={"/s1"} block={true}/>
               <NavBarWord word={"LinkedIn"} link={"/linkedin"} block={true}/>
           </div>
