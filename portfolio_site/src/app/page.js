@@ -1,4 +1,5 @@
 import NavBar from "./navBar";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex justify-center sm:h-32 md:h-96 lg:h-[40rem] w-1/2">
-                <img className="animate-slideInL rounded-lg h-full w-auto" src="./imgs/J1.jpg" alt="Juan Vera" ></img>
+                <Image className="animate-slideInL rounded-lg h-full w-auto" src="./imgs/J1.jpg" alt="Juan Vera" ></Image>
               </div>
             </div>
           </div>
